@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="format-detection" content="telephone=no">
+    <title>TeSa Beauty - Premium Cosmetic Studio</title>
+    <meta name="description"
+        content="TeSa Beauty - Premium cosmetic studio in Skopje, Macedonia. Expert skincare, makeup artistry, lash extensions, and beauty treatments. Book your appointment today.">
+    <meta name="keywords" content="cosmetic studio, beauty salon, skincare, makeup, lash extensions, Skopje, Macedonia">
+    <meta name="author" content="TeSa Beauty">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tesabeauty.com/">
+    <meta property="og:title" content="TeSa Beauty - Premium Cosmetic Studio">
+    <meta property="og:description"
+        content="Expert cosmetic services tailored to enhance your natural beauty. We create, enhance and replicate hyper-realistic features for your most confident self.">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://tesabeauty.com/">
+    <meta property="twitter:title" content="TeSa Beauty - Premium Cosmetic Studio">
+    <meta property="twitter:description" content="Expert cosmetic services tailored to enhance your natural beauty.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+    <!-- Structured Data (Schema.org) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BeautySalon",
+        "name": "TeSa Beauty",
+        "description": "Premium cosmetic studio in Skopje, Macedonia offering expert skincare, makeup artistry, lash extensions, and beauty treatments.",
+        "url": "https://tesabeauty.com",
+        "telephone": "+38977727277",
+        "email": "tesabeautystudiomk@gmail.com",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Ul.Bulevar 8-mi Septemvri 7 Apt. 4",
+            "addressLocality": "Skopje",
+            "addressCountry": "MK"
+        },
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "09:00",
+                "closes": "19:00"
+            }
+        ],
+        "priceRange": "$$",
+        "image": "https://tesabeauty.com/logo.png",
+        "sameAs": [
+            "https://www.facebook.com/share/17JidpLVbb/",
+            "https://www.instagram.com/tesabeautystudio/"
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "3"
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "author": {
+                    "@type": "Person",
+                    "name": "Marija Vanevska"
+                },
+                "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5"
+                },
+                "reviewBody": "TeSa Beauty has transformed my skincare routine. The facials are incredible and my skin has never looked better!"
+            },
+            {
+                "@type": "Review",
+                "author": {
+                    "@type": "Person",
+                    "name": "Monika Angelovska"
+                },
+                "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5"
+                },
+                "reviewBody": "I couldn't have imagined a more perfect wedding day look. The makeup artist was incredibly talented and made me feel stunning!"
+            },
+            {
+                "@type": "Review",
+                "author": {
+                    "@type": "Person",
+                    "name": "Michelle Chen"
+                },
+                "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5"
+                },
+                "reviewBody": "The lash extensions are amazing! They look so natural and last forever. Highly recommend!"
+            }
+        ],
+        "service": [
+            {
+                "@type": "Service",
+                "serviceType": "Manicure",
+                "description": "Professional nail care treatments for beautifully polished hands"
+            },
+            {
+                "@type": "Service",
+                "serviceType": "Pedicure",
+                "description": "Relaxing foot care rituals that smooth, refresh, and rejuvenate"
+            },
+            {
+                "@type": "Service",
+                "serviceType": "Waxing",
+                "description": "Gentle hair removal treatments for silky-smooth, long-lasting results"
+            },
+            {
+                "@type": "Service",
+                "serviceType": "Lash Lift & Brow Lamination",
+                "description": "Lift, curl, and refine lashes and brows for a naturally defined look"
+            },
+            {
+                "@type": "Service",
+                "serviceType": "Orient Fit Vacuum",
+                "description": "Advanced Orient Fit vacuum therapy to contour and tone the body"
+            }
+        ]
+    }
+    </script>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX'); // Replace with your actual Google Analytics ID
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Optimized Font Loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet">
+    </noscript>
+</head>
+
+<body>
+    <!-- Skip Navigation Link -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Floating Book Now Button -->
+    <a href="#contact" class="floating-book-btn" data-aria-en="Book Now" data-aria-mk="Резервирај сега"
+        aria-label="Book Now">
+        <span data-en="Book Now" data-mk="Резервирај сега">Book Now</span>
+    </a>
+
+    <!-- Breadcrumbs -->
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <div class="container">
+            <ol class="breadcrumb-list">
+                <li><a href="#home">Home</a></li>
+            </ol>
+        </div>
+    </nav>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h1>TeSa Beauty</h1>
+                    <p class="tagline">Cosmetic Studio</p>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link" data-en="Home" data-mk="Дома">Home</a></li>
+                    <li><a href="#services" class="nav-link" data-en="Services" data-mk="Услуги">Services</a></li>
+                    <li><a href="#about" class="nav-link" data-en="About" data-mk="За нас">About</a></li>
+                    <li><a href="#gallery" class="nav-link" data-en="Gallery" data-mk="Галерија">Gallery</a></li>
+                    <li><a href="#testimonials" class="nav-link" data-en="Testimonials"
+                            data-mk="Сведоштва">Testimonials</a></li>
+                    <li><a href="#contact" class="nav-link" data-en="Contact" data-mk="Контакт">Contact</a></li>
+                    <li class="nav-lang-switcher">
+                        <div class="language-switcher" id="languageSwitcher">
+                            <button class="lang-btn active" data-lang="en" aria-label="Switch to English">EN</button>
+                            <button class="lang-btn" data-lang="mk" aria-label="Switch to Macedonian">MK</button>
+                        </div>
+                    </li>
+                </ul>
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <main id="main-content">
+        <section id="home" class="hero">
+            <div class="hero-background">
+                <video autoplay muted loop playsinline class="hero-video">
+                    <source src="assets/11.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="gradient-overlay"></div>
+            </div>
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title" data-en="Transform Your Beauty" data-mk="Трансформирајте ја вашата убавина">
+                        Transform Your Beauty</h1>
+                    <p class="hero-subtitle"
+                        data-en="Expert cosmetic services tailored to enhance your natural beauty. We create, enhance and replicate hyper-realistic features for your most confident self."
+                        data-mk="Стручни козметички услуги прилагодени за да ја засилат вашата природна убавина. Ние создаваме, подобруваме и реплицираме хипер-реалистични карактеристики за вашето најсамоуверено јас.">
+                        Expert cosmetic services tailored to enhance your natural beauty. We
+                        create,
+                        enhance and replicate hyper-realistic features for your most confident self.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary btn-large" data-en="Book Appointment"
+                            data-mk="Резервирај термин">Book Appointment</a>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse"></div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-en="Our Services" data-mk="Нашите услуги">Our Services</h2>
+                    <p class="section-subtitle" data-en="Comprehensive beauty solutions for every need"
+                        data-mk="Сеопфатни козметички решенија за секоја потреба">Comprehensive beauty solutions for
+                        every need</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path
+                                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" />
+                            </svg>
+                        </div>
+                        <h3 data-en="Manicure" data-mk="Маникир">Manicure</h3>
+                        <p data-en="Professional nail care treatments for beautifully polished hands"
+                            data-mk="Професионална нега на нокти за совршено негувани раце">Professional nail care
+                            treatments for beautifully polished hands</p>
+                        <a href="#contact" class="service-link" data-en="Learn More →" data-mk="Дознајте повеќе →">Learn
+                            More →</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path
+                                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" />
+                            </svg>
+                        </div>
+                        <h3 data-en="Pedicure" data-mk="Педикир">Pedicure</h3>
+                        <p data-en="Relaxing foot care rituals that smooth, refresh, and rejuvenate"
+                            data-mk="Релаксирачки третмани за стапала кои омекнуваат, освежуваат и подмладуваат">
+                            Relaxing
+                            foot care rituals that smooth, refresh, and rejuvenate</p>
+                        <a href="#contact" class="service-link" data-en="Learn More →" data-mk="Дознајте повеќе →">Learn
+                            More →</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path
+                                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" />
+                            </svg>
+                        </div>
+                        <h3 data-en="Waxing" data-mk="Депилација">Waxing</h3>
+                        <p data-en="Gentle hair removal treatments for silky-smooth, long-lasting results"
+                            data-mk="Нежни третмани за отстранување на влакна за свиленкасто мазна кожа со долготраен ефект">
+                            Gentle hair removal treatments for silky-smooth, long-lasting results</p>
+                        <a href="#contact" class="service-link" data-en="Learn More →" data-mk="Дознајте повеќе →">Learn
+                            More →</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path
+                                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" />
+                            </svg>
+                        </div>
+                        <h3 data-en="Lash Lift &amp; Brow Lamination"
+                            data-mk="Подигнување на трепки и ламинација на веѓи">Lash Lift &amp; Brow Lamination</h3>
+                        <p data-en="Lift, curl, and refine lashes and brows for a naturally defined look"
+                            data-mk="Подигнување, обликување и дефинирање на трепки и веѓи за природен изглед">Lift,
+                            curl, and refine lashes and brows for a naturally defined look</p>
+                        <a href="#contact" class="service-link" data-en="Learn More →" data-mk="Дознајте повеќе →">Learn
+                            More →</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path
+                                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" />
+                            </svg>
+                        </div>
+                        <h3 data-en="Orient Fit Vacuum" data-mk="Orient Fit вакум">Orient Fit Vacuum</h3>
+                        <p data-en="Advanced Orient Fit vacuum therapy to contour and tone the body"
+                            data-mk="Напредна Orient Fit вакум терапија за обликување и тонирање на телото">Advanced
+                            Orient Fit vacuum therapy to contour and tone the body</p>
+                        <a href="#contact" class="service-link" data-en="Learn More →" data-mk="Дознајте повеќе →">Learn
+                            More →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-wrapper">
+                    <div class="about-content">
+                        <h2 class="section-title" data-en="About TeSa Beauty" data-mk="За TeSa Beauty">About TeSa Beauty
+                        </h2>
+                        <p class="about-text"
+                            data-en="At TeSa Beauty, we believe that everyone deserves to feel beautiful and confident. Our premium cosmetic studio offers a luxurious experience where artistry meets expertise."
+                            data-mk="Во TeSa Beauty, веруваме дека секој заслужува да се чувствува убав и самоуверен. Нашето премиум козметичко студио нуди луксузно искуство каде уметноста се среќава со стручноста.">
+                            At TeSa Beauty, we believe that everyone deserves to feel beautiful and confident.
+                            Our premium cosmetic studio offers a luxurious experience where artistry meets expertise.
+                        </p>
+                        <p class="about-text"
+                            data-en="With years of experience in the beauty industry, our team of skilled professionals is dedicated to providing personalized treatments that enhance your natural beauty. We use only the highest quality products and the latest techniques to ensure exceptional results."
+                            data-mk="Со години искуство во козметичката индустрија, нашиот тим од вешти професионалци е посветен на обезбедување персонализирани третмани кои ја засилуваат вашата природна убавина. Користиме само највисококвалитетни производи и најнови техники за да обезбедиме исклучителни резултати.">
+                            With years of experience in the beauty industry, our team of skilled professionals
+                            is dedicated to providing personalized treatments that enhance your natural beauty.
+                            We use only the highest quality products and the latest techniques to ensure exceptional
+                            results.
+                        </p>
+                        <div class="stats">
+                            <div class="stat">
+                                <h3>500+</h3>
+                                <p data-en="Happy Clients" data-mk="Задоволни клиенти">Happy Clients</p>
+                            </div>
+                            <div class="stat">
+                                <h3>10+</h3>
+                                <p data-en="Years Experience" data-mk="Години искуство">Years Experience</p>
+                            </div>
+                            <div class="stat">
+                                <h3>50+</h3>
+                                <p data-en="Award Winning" data-mk="Награди">Award Winning</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <div class="image-placeholder">
+                            <img src="assets/01.jpg" alt="TeSa Beauty Studio" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-en="Our Gallery" data-mk="Нашата галерија">Our Gallery</h2>
+                    <p class="section-subtitle" data-en="Explore our stunning transformations"
+                        data-mk="Истражете ги нашите впечатливи трансформации">Explore our stunning transformations</p>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item" data-gallery-item="0">
+                        <div class="gallery-image">
+                            <img src="assets/02.jpg" alt="Beauty transformation" loading="lazy">
+                            <div class="gallery-overlay">
+                                <svg class="gallery-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <circle cx="11" cy="11" r="7"></circle>
+                                    <path d="m20 20-4.35-4.35"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-gallery-item="1">
+                        <div class="gallery-image">
+                            <img src="assets/03.jpg" alt="Makeup artistry" loading="lazy">
+                            <div class="gallery-overlay">
+                                <svg class="gallery-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <circle cx="11" cy="11" r="7"></circle>
+                                    <path d="m20 20-4.35-4.35"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-gallery-item="2">
+                        <div class="gallery-image">
+                            <img src="assets/06.jpg" alt="Skincare treatment" loading="lazy">
+                            <div class="gallery-overlay">
+                                <svg class="gallery-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <circle cx="11" cy="11" r="7"></circle>
+                                    <path d="m20 20-4.35-4.35"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-gallery-item="3">
+                        <div class="gallery-image">
+                            <img src="assets/07.jpg" alt="Lash extensions" loading="lazy">
+                            <div class="gallery-overlay">
+                                <svg class="gallery-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <circle cx="11" cy="11" r="7"></circle>
+                                    <path d="m20 20-4.35-4.35"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-gallery-item="4">
+                        <div class="gallery-image">
+                            <img src="assets/08.jpg" alt="Hair styling" loading="lazy">
+                            <div class="gallery-overlay">
+                                <svg class="gallery-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <circle cx="11" cy="11" r="7"></circle>
+                                    <path d="m20 20-4.35-4.35"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-gallery-item="5">
+                        <div class="gallery-image">
+                            <img src="assets/09.webp" alt="Beauty makeover" loading="lazy">
+                            <div class="gallery-overlay">
+                                <svg class="gallery-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <circle cx="11" cy="11" r="7"></circle>
+                                    <path d="m20 20-4.35-4.35"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item gallery-item-hidden" data-gallery-item="6">
+                        <div class="gallery-image">
+                            <img src="assets/10.jpg" alt="Beauty services" loading="lazy">
+                            <div class="gallery-overlay">
+                                <svg class="gallery-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <circle cx="11" cy="11" r="7"></circle>
+                                    <path d="m20 20-4.35-4.35"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item gallery-item-hidden" data-gallery-item="7">
+                        <div class="gallery-image">
+                            <img src="assets/12.jpg" alt="Professional makeup" loading="lazy">
+                            <div class="gallery-overlay">
+                                <svg class="gallery-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <circle cx="11" cy="11" r="7"></circle>
+                                    <path d="m20 20-4.35-4.35"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item gallery-item-hidden" data-gallery-item="8">
+                        <div class="gallery-image">
+                            <img src="assets/13.jpg" alt="Beauty transformation" loading="lazy">
+                            <div class="gallery-overlay">
+                                <svg class="gallery-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <circle cx="11" cy="11" r="7"></circle>
+                                    <path d="m20 20-4.35-4.35"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item gallery-item-hidden" data-gallery-item="9">
+                        <div class="gallery-image">
+                            <img src="assets/14.jpg" alt="Cosmetic services" loading="lazy">
+                            <div class="gallery-overlay">
+                                <svg class="gallery-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <circle cx="11" cy="11" r="7"></circle>
+                                    <path d="m20 20-4.35-4.35"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item gallery-item-hidden" data-gallery-item="10">
+                        <div class="gallery-image">
+                            <img src="assets/15.jpg" alt="Beauty treatments" loading="lazy">
+                            <div class="gallery-overlay">
+                                <svg class="gallery-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <circle cx="11" cy="11" r="7"></circle>
+                                    <path d="m20 20-4.35-4.35"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item gallery-item-hidden" data-gallery-item="11">
+                        <div class="gallery-image">
+                            <img src="assets/16.jpg" alt="Makeup artistry" loading="lazy">
+                            <div class="gallery-overlay">
+                                <svg class="gallery-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <circle cx="11" cy="11" r="7"></circle>
+                                    <path d="m20 20-4.35-4.35"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item gallery-item-hidden" data-gallery-item="12">
+                        <div class="gallery-image">
+                            <img src="assets/17.jpg" alt="Beauty services" loading="lazy">
+                            <div class="gallery-overlay">
+                                <svg class="gallery-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <circle cx="11" cy="11" r="7"></circle>
+                                    <path d="m20 20-4.35-4.35"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item gallery-item-hidden" data-gallery-item="13">
+                        <div class="gallery-image">
+                            <img src="assets/18.jpg" alt="Professional beauty" loading="lazy">
+                            <div class="gallery-overlay">
+                                <svg class="gallery-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <circle cx="11" cy="11" r="7"></circle>
+                                    <path d="m20 20-4.35-4.35"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item gallery-item-hidden" data-gallery-item="14">
+                        <div class="gallery-image">
+                            <img src="assets/19.jpg" alt="Cosmetic studio" loading="lazy">
+                            <div class="gallery-overlay">
+                                <svg class="gallery-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <circle cx="11" cy="11" r="7"></circle>
+                                    <path d="m20 20-4.35-4.35"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item gallery-item-hidden" data-gallery-item="15">
+                        <div class="gallery-image">
+                            <img src="assets/20.jpg" alt="Beauty treatments" loading="lazy">
+                            <div class="gallery-overlay">
+                                <svg class="gallery-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <circle cx="11" cy="11" r="7"></circle>
+                                    <path d="m20 20-4.35-4.35"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item gallery-item-hidden" data-gallery-item="16">
+                        <div class="gallery-image">
+                            <img src="assets/21.jpg" alt="Makeup services" loading="lazy">
+                            <div class="gallery-overlay">
+                                <svg class="gallery-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <circle cx="11" cy="11" r="7"></circle>
+                                    <path d="m20 20-4.35-4.35"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item gallery-item-hidden" data-gallery-item="17">
+                        <div class="gallery-image">
+                            <img src="assets/22.jpg" alt="Beauty transformation" loading="lazy">
+                            <div class="gallery-overlay">
+                                <svg class="gallery-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <circle cx="11" cy="11" r="7"></circle>
+                                    <path d="m20 20-4.35-4.35"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item gallery-item-hidden" data-gallery-item="18">
+                        <div class="gallery-image">
+                            <img src="assets/23.jpg" alt="Professional services" loading="lazy">
+                            <div class="gallery-overlay">
+                                <svg class="gallery-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <circle cx="11" cy="11" r="7"></circle>
+                                    <path d="m20 20-4.35-4.35"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item gallery-item-hidden" data-gallery-item="19">
+                        <div class="gallery-image">
+                            <img src="assets/24.jpeg" alt="Beauty makeover" loading="lazy">
+                            <div class="gallery-overlay">
+                                <svg class="gallery-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <circle cx="11" cy="11" r="7"></circle>
+                                    <path d="m20 20-4.35-4.35"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item gallery-item-hidden" data-gallery-item="20">
+                        <div class="gallery-image">
+                            <img src="assets/25.jpeg" alt="Cosmetic treatments" loading="lazy">
+                            <div class="gallery-overlay">
+                                <svg class="gallery-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <circle cx="11" cy="11" r="7"></circle>
+                                    <path d="m20 20-4.35-4.35"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item gallery-item-hidden" data-gallery-item="21">
+                        <div class="gallery-image">
+                            <img src="assets/26.jpeg" alt="Beauty services" loading="lazy">
+                            <div class="gallery-overlay">
+                                <svg class="gallery-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <circle cx="11" cy="11" r="7"></circle>
+                                    <path d="m20 20-4.35-4.35"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item gallery-item-hidden" data-gallery-item="22">
+                        <div class="gallery-image">
+                            <img src="assets/27.jpeg" alt="Professional beauty" loading="lazy">
+                            <div class="gallery-overlay">
+                                <svg class="gallery-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <circle cx="11" cy="11" r="7"></circle>
+                                    <path d="m20 20-4.35-4.35"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-load-more-wrapper">
+                    <button class="btn btn-outline gallery-load-more-btn" id="galleryLoadMore" data-en="See More"
+                        data-mk="Види повеќе">
+                        See More
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-en="Client Testimonials" data-mk="Сведоштва од клиенти">Client
+                        Testimonials</h2>
+                    <p class="section-subtitle" data-en="What our clients say about us"
+                        data-mk="Што велат нашите клиенти за нас">What our clients say about us</p>
+                </div>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="testimonial-avatar">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="12" cy="7" r="4"></circle>
+                                </svg>
+                            </div>
+                            <div class="testimonial-author">
+                                <h4>Marija Vanevska</h4>
+                                <p data-en="Regular Client" data-mk="Постојан клиент">Regular Client</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <p>"TeSa Beauty has transformed my skincare routine. The facials are incredible and my skin
+                                has
+                                never looked better!"</p>
+                        </div>
+                        <div class="testimonial-rating">
+                            ⭐⭐⭐⭐⭐
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="testimonial-avatar">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="12" cy="7" r="4"></circle>
+                                </svg>
+                            </div>
+                            <div class="testimonial-author">
+                                <h4>Monika Angelovska</h4>
+                                <p data-en="Bride" data-mk="Невеста">Bride</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <p>"I couldn't have imagined a more perfect wedding day look. The makeup artist was
+                                incredibly
+                                talented and made me feel stunning!"</p>
+                        </div>
+                        <div class="testimonial-rating">
+                            ⭐⭐⭐⭐⭐
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="testimonial-avatar">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="12" cy="7" r="4"></circle>
+                                </svg>
+                            </div>
+                            <div class="testimonial-author">
+                                <h4>Michelle Chen</h4>
+                                <p data-en="Regular Client" data-mk="Постојан клиент">Regular Client</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <p>"The lash extensions are amazing! They look so natural and last forever. Highly
+                                recommend!"
+                            </p>
+                        </div>
+                        <div class="testimonial-rating">
+                            ⭐⭐⭐⭐⭐
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h2 class="section-title" data-en="Get In Touch" data-mk="Контактирајте не">Get In Touch</h2>
+                        <p class="contact-subtitle" data-en="Book your appointment or ask us anything"
+                            data-mk="Резервирајте термин или прашајте не што било">Book your appointment or ask us
+                            anything</p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 data-en="Visit Us" data-mk="Посети не">Visit Us</h4>
+                                    <p>Ul.Bulevar 8-mi Septemvri 7 Apt. 4</p>
+                                    <!-- Google Maps Embed -->
+                                    <div class="map-container">
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2965.715925373548!2d21.434499315476756!3d42.00423097920848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13541403662a9a5b%3A0x8c6d4e6e8f4e6e8f!2sBulevar%208-mi%20Septemvri%207%2C%20Skopje%201000!5e0!3m2!1sen!2smk!4v1234567890123!5m2!1sen!2smk"
+                                            width="100%" height="200" style="border:0; border-radius: 4px;"
+                                            allowfullscreen="" loading="lazy"
+                                            referrerpolicy="no-referrer-when-downgrade" title="TeSa Beauty Location"
+                                            aria-label="Google Maps showing TeSa Beauty location">
+                                        </iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                        <path
+                                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 data-en="Call Us" data-mk="Телефонирај ни">Call Us</h4>
+                                    <p><a href="tel:+38977727277"
+                                            aria-label="Call us at +38977/727-277">+38977/727-277</a></p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                        <path
+                                            d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                        </path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 data-en="Email Us" data-mk="Испрати ни email">Email Us</h4>
+                                    <p><a href="mailto:tesabeautystudiomk@gmail.com"
+                                            aria-label="Email us at tesabeautystudiomk@gmail.com">tesabeautystudiomk@gmail.com</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                        <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                        <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 data-en="Opening Hours" data-mk="Работно време">Opening Hours</h4>
+                                    <p data-en="Mon - Fri: 09:00 - 19:00" data-mk="Пон - Петок: 09:00 - 19:00">Mon -
+                                        Fri:
+                                        09:00 - 19:00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-wrapper">
+                        <form class="contact-form" id="contactForm" data-aria-en="Contact form"
+                            data-aria-mk="Контакт форма" aria-label="Contact form">
+                            <div class="form-group">
+                                <label for="name" class="visually-hidden" data-en="Your Name" data-mk="Вашето име">Your
+                                    Name</label>
+                                <input type="text" id="name" name="name" autocomplete="name"
+                                    data-placeholder-en="Your Name" data-placeholder-mk="Вашето име"
+                                    placeholder="Your Name" required aria-required="true">
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="visually-hidden" data-en="Your Email"
+                                    data-mk="Вашата е-пошта">Your Email</label>
+                                <input type="email" id="email" name="email" autocomplete="email"
+                                    data-placeholder-en="Your Email" data-placeholder-mk="Вашата е-пошта"
+                                    placeholder="Your Email" required aria-required="true">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone" class="visually-hidden" data-en="Phone Number"
+                                    data-mk="Телефонски број">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" autocomplete="tel"
+                                    data-placeholder-en="Phone Number" data-placeholder-mk="Телефонски број"
+                                    placeholder="Phone Number" required aria-required="true">
+                            </div>
+                            <div class="form-group">
+                                <label for="service" class="visually-hidden" data-en="Select a Service"
+                                    data-mk="Изберете услуга">Select a Service</label>
+                                <select id="service" name="service" required aria-required="true">
+                                    <option value="" data-en="Select a Service" data-mk="Изберете услуга">Select a
+                                        Service</option>
+                                    <option value="manicure" data-en="Manicure" data-mk="Маникир">Manicure</option>
+                                    <option value="pedicure" data-en="Pedicure" data-mk="Педикир">Pedicure</option>
+                                    <option value="waxing" data-en="Waxing" data-mk="Депилација">Waxing</option>
+                                    <option value="lash-brow" data-en="Lash Lift &amp; Brow Lamination"
+                                        data-mk="Подигнување на трепки и ламинација на веѓи">Lash Lift &amp; Brow
+                                        Lamination
+                                    </option>
+                                    <option value="orient-fit" data-en="Orient Fit Vacuum" data-mk="Orient Fit вакум">
+                                        Orient
+                                        Fit Vacuum</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="visually-hidden" data-en="Your Message"
+                                    data-mk="Вашата порака">Your Message</label>
+                                <textarea id="message" name="message" rows="5" data-placeholder-en="Your Message"
+                                    data-placeholder-mk="Вашата порака" placeholder="Your Message"
+                                    data-aria-en="Your message" data-aria-mk="Вашата порака"
+                                    aria-label="Your message"></textarea>
+                            </div>
+                            <div class="form-error" id="formError" role="alert" aria-live="polite"></div>
+                            <button type="submit" class="btn btn-primary btn-large" id="submitBtn">
+                                <span class="btn-text" data-en="Send Message" data-mk="Испрати порака">Send
+                                    Message</span>
+                                <span class="btn-loader" style="display: none;">
+                                    <span class="spinner"></span> <span data-en="Sending..."
+                                        data-mk="Се испраќа...">Sending...</span>
+                                </span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TeSa Beauty</h3>
+                    <p data-en="Transforming beauty, one client at a time."
+                        data-mk="Трансформирање на убавина, еден клиент по еден.">Transforming beauty, one client at a
+                        time.</p>
+                    <!-- Follow Us -->
+                    <div class="social-links">
+                        <h4 class="social-title" data-en="Follow Us" data-mk="Следете не">Follow Us</h4>
+                        <a href="https://www.facebook.com/share/17JidpLVbb/" target="_blank" rel="noopener noreferrer"
+                            class="social-link" aria-label="Follow us on Facebook">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/tesabeautystudio/" target="_blank" rel="noopener noreferrer"
+                            class="social-link" aria-label="Follow us on Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="3" y="3" width="18" height="18" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a href="https://wa.me/38977727277" target="_blank" rel="noopener noreferrer"
+                            class="social-link" aria-label="Contact us on WhatsApp">
+                            <svg viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                                <path
+                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4 data-en="Quick Links" data-mk="Брзи линкови">Quick Links</h4>
+                    <ul>
+                        <li><a href="#home" data-en="Home" data-mk="Дома">Home</a></li>
+                        <li><a href="#services" data-en="Services" data-mk="Услуги">Services</a></li>
+                        <li><a href="#about" data-en="About" data-mk="За нас">About</a></li>
+                        <li><a href="#gallery" data-en="Gallery" data-mk="Галерија">Gallery</a></li>
+                        <li><a href="#contact" data-en="Contact" data-mk="Контакт">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-en="Services" data-mk="Услуги">Services</h4>
+                    <ul>
+                        <li><a href="#" data-en="Manicure" data-mk="Маникир">Manicure</a></li>
+                        <li><a href="#" data-en="Pedicure" data-mk="Педикир">Pedicure</a></li>
+                        <li><a href="#" data-en="Waxing" data-mk="Депилација">Waxing</a></li>
+                        <li><a href="#" data-en="Lash Lift &amp; Brow Lamination"
+                                data-mk="Подигнување на трепки и ламинација на веѓи">Lash Lift &amp; Brow Lamination</a>
+                        </li>
+                        <li><a href="#" data-en="Orient Fit Vacuum" data-mk="Orient Fit вакум">Orient Fit Vacuum</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-en="Contact Info" data-mk="Контакт Информации">Contact Info</h4>
+                    <ul>
+                        <li>Ul.Bulevar 8-mi Septemvri 7 Apt. 4</li>
+                        <li>Skopje, Macedonia</li>
+                        <li><span data-en="Phone:" data-mk="Телефон:">Phone:</span> <a
+                                href="tel:+38977727277">+38977/727-277</a></li>
+                        <li><span data-en="Email:" data-mk="Е-пошта:">Email:</span> <a
+                                href="mailto:tesabeautystudiomk@gmail.com">tesabeautystudiomk@gmail.com</a></li>
+                        <li data-en="Mon - Fri: 09:00 - 19:00" data-mk="Понед - Петок: 09:00 - 19:00">Mon - Fri: 09:00 -
+                            19:00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TeSa Beauty. <span data-en="All rights reserved." data-mk="Сите права задржани.">All
+                        rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image gallery lightbox">
+        <button class="lightbox-close" aria-label="Close lightbox">&times;</button>
+        <button class="lightbox-prev" aria-label="Previous image">&#8249;</button>
+        <button class="lightbox-next" aria-label="Next image">&#8250;</button>
+        <div class="lightbox-content">
+            <img src="" alt="" id="lightbox-image">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
